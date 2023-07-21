@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3faff74b-7d2f-449b-85ff-a31ef95947e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Respon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learngin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request/requests.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/can/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/picture/Cansee/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/can/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/picture/Cansee/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/respon.go" beforeDir="false" afterPath="$PROJECT_DIR$/Respon/respon.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file://D:/golang" />
   <component name="Git.Settings">
@@ -31,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
@@ -40,7 +53,7 @@
     &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/19778/Desktop/Respon&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/19778/Desktop/Tcp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -50,10 +63,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\19778\Desktop\learngin\html" />
+      <recent name="C:\Users\19778\Desktop\learngin\Respon" />
       <recent name="C:\Users\19778\Desktop\Respon\html" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build Respon">
+  <component name="RunManager" selected="Go Build.go build requests.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="learngin" />
       <working_directory value="$PROJECT_DIR$" />
@@ -70,6 +85,15 @@
       <package value="Respon" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/respon.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build requests.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learngin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="响应" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/request/requests.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build respon.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -93,8 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Respon" />
+        <item itemvalue="Go Build.go build requests.go" />
         <item itemvalue="Go Build.go build respon.go" />
+        <item itemvalue="Go Build.go build Respon" />
       </list>
     </recent_temporary>
   </component>

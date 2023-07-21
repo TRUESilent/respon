@@ -11,7 +11,7 @@ import (
 type User struct {
 	ID         uint   `gorm:"primaryKey;autoIncrement;column:id"`
 	Name       string `gorm:"column:name"`
-	Department string `gorm:"column:department;default:'develop'"`
+	Department string `gorm:"column:department;de	fault:'develop'"`
 }
 
 func (User) TableName() string {
@@ -61,11 +61,11 @@ func main() {
 		fmt.Printf("ID: %d, Name: %s, Department: %s\n", user.ID, user.Name, user.Department)
 	}
 	//Delete(db)
-	router := gin.Default()       // 创建一个默认的路由
-	router.LoadHTMLGlob("html/*") // 绑定路由规则和路由函数，访问/index的路由，将由对应的函数去处理
+	router := gin.Default() // 创建一个默认的路由
+	router.LoadHTMLGlob("heml/*")
 	router.GET("/index", Index)
 	router.GET("/json", Json) // 启动监听，gin会把web服务运行在本机的0.0.0.0:8080端口上
-	router.StaticFS("/see", http.Dir("picture/can"))
+	router.StaticFS("/see", http.Dir("picture/Cansee"))
 	router.StaticFile("/osee", "picture/img.png")
 	router.GET("/", func(c *gin.Context) {
 		var user User
@@ -86,5 +86,5 @@ func main() {
 		}
 
 	})
-	router.Run(":8080")
+	router.Run(":8087")
 }
